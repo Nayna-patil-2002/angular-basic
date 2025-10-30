@@ -1,0 +1,18 @@
+img{
+ 
+    object-fit: cover;
+    overflow: auto;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.card-header,
+.card-footer {
+  background-color:palevioletred;
+}
+
+.card-body{
+   background-color:lightseagreen;
+}
+

@@ -1,0 +1,35 @@
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-8 offset-2">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Sr.No.</th>
+                        <th>Name</th>
+                        <th>Country</th>
+                        <th>Role</th>
+                        <th>Runs</th>
+                        <th>Edit</th>
+                        <th>Remove</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let cricket of crickterArr">
+                        <td>{{cricket.id}}</td>
+                        <td>{{cricket.name}}</td>
+                        <td>{{cricket.country}}</td>
+                        <td>{{cricket.role}}</td>
+                        <td>{{cricket.runs}}</td>
+                        <td class="text-center">
+                            <button class="btn btn-sm btn-primary">Edit</button>
+                        </td>
+                        <td class="text-center">
+                            <button class="btn btn-sm btn-danger">remove</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
